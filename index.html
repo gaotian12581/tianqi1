@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <!--<script src="js/index.js" type="text/javascript" charset="utf-8"></script>-->
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+</head>
+<body>
+	<div class="main">
+		<header>
+			<div class="dingwei">
+				<div class="dingwei-1">
+					<i class="iconfont icon-dingweiweizhi"></i>
+					<span class="city">太原市 阳曲县</span>
+				</div>
+				
+				<h1>0°</h1>
+				<h3>晴</h3>
+				<span class="wind">东南 </span><span class="shidu">3级</span>
+				<p>天冷了，注意保暖~</p>
+			</div>
+			<img src="img/screen.png"/>
+			<div class="header-box">
+				<p>空气</p>
+				<p>轻度污染</p>
+			</div>
+		</header>
+		<!--tq-->
+		<div class="tq">
+			<ul class="td">
+				<li>今天</li>
+				<li><span class="td-top">2</span>/<span class="td-low">-11</span>℃</li>
+				<li>晴转多云</li>
+				<li></li>
+			</ul>
+			<ul class="tm">
+				<li>明天</li>
+				<li><span class="td-top">2</span>/<span class="td-low">-11</span>℃</li>
+				<li>晴转多云</li>
+				<li></li>
+			</ul>
+		</div>
+		
+		<!--time-->
+		<div class="time">
+			<ul class="time-1">
+				<!--<li>
+					<p>12:00</p>
+					<img src="img/0.png"/>
+					<p>-1°</p>
+				</li>
+				<li>
+					<p>12:00</p>
+					<img src="img/0.png"/>
+					<p>-1°</p>
+				</li>
+				<li>
+					<p>12:00</p>
+					<img src="img/0.png"/>
+					<p>-1°</p>
+				</li>
+				<li>
+					<p>12:00</p>
+					<img src="img/0.png"/>
+					<p>-1°</p>
+				</li>
+				<li>
+					<p>12:00</p>
+					<img src="img/0.png"/>
+					<p>-1°</p>
+				</li>
+				<li>
+					<p>12:00</p>
+					<img src="img/0.png"/>
+					<p>-1°</p>
+				</li>
+				<li>
+					<p>12:00</p>
+					<img src="img/0.png"/>
+					<p>-1°</p>
+				</li>-->
+			</ul>
+		</div>
+		<!--qushi-->
+		<div class="qushi">
+			<ul class="qushi-top">
+				<!--<li>
+					<p>昨天</p>
+					<span>09/26</span>
+					<h4>多云</h4>
+					<img src="img/1.png" alt="" />
+					<div class="qushi-img"></div>
+					<img src="img/1.png"/>
+					<p>多云</p>
+					<p>西北风</p>
+					<p>3级</p>
+				</li>-->
+				
+			</ul>
+		</div>
+		
+		<!--footer-->
+		<footer>
+			<ul>
+				<li>
+					<i class="iconfont icon-san"></i>
+					<span>不带伞</span>
+					<p>雨伞</p>
+				</li>
+				<li>
+					<i class="iconfont icon-txu"></i>
+					<span>冷</span>
+					<p>穿衣</p>
+				</li>
+				<li>
+					<i class="iconfont icon-taiyang"></i>
+					<span>较弱</span>
+					<p>防晒</p>
+				</li>
+				<li>
+					<i class="iconfont icon-tubiaojiaonangyao"></i>
+					<span>较易发</span>
+					<p>感冒</p>
+				</li>
+				<li>
+					<i class="iconfont icon-icon5"></i>
+					<span>较不宜</span>
+					<p>运动</p>
+				</li>
+				<li>
+					<i class="iconfont icon-xiche"></i>
+					<span>较适宜</span>
+					<p>洗车</p>
+				</li>
+				<li>
+					<i class="iconfont icon-yu"></i>
+					<span>不宜</span>
+					<p>钓鱼</p>
+				</li>
+				<li>
+					<i class="iconfont icon-xinhaodeng"></i>
+					<span>良好</span>
+					<p>交通</p>
+				</li>
+			</ul>
+		</footer>
+		<div class="sjly">数据来源于中国天气网</div>
+	</div>
+	
+	<!--定位开始-->
+	<div class="location">
+		<div class="input">
+			<input type="text" placeholder="搜索市、区、县" >
+			<a href="javascript:void(false)">取消</a>
+		</div>
+		<div class="location-1">当前定位
+			<a href="javascript:void(false)">小店区</a>
+		</div>
+		<div class="location-2">历史记录
+			<a href="javascript:void(false)"><i class="iconfont icon-yu"></i></a>
+			<ul>
+				<li>拉萨</li>
+				<li>拉萨</li>
+				<li>拉萨</li>
+				<li>拉萨</li>
+			</ul>
+		</div>
+		<div class="location-3">热门城市
+			<ul>
+				
+			</ul>
+		</div>
+		<div class="location-4">热门景区
+			<ul>
+				
+			</ul>
+		</div>
+	</div>
+	
+</body>
+</html>
+<script type="text/javascript">
+	$(".dingwei-1").click(function(){
+		$(".location").css({"display":"block"});
+		$(".location").animate({"right":0});
+		$(".main").css({"display":'none'});
+	})
+	$(".input a").click(function(){
+		$(".location").animate({"right":"7.5rem"});
+		$(".main").css({"display":'block'});
+		$(".location").css({"display":"none"});
+	})
+	//1.获取当前城市的天气信息
+	let tianqi;
+	$.ajax({
+		type:"get",
+		url:"https://www.toutiao.com/stream/widget/local_weather/data/?city=太原",
+		dataType:"jsonp",
+		success:function(obj){
+			tianqi=obj.data;
+			updata(tianqi);
+			console.log(tianqi)
+		}
+	})
+	function updata(tianqi){
+		$(".city").html(tianqi.city);
+		$(".header-box p:last-child").html(tianqi.weather.quality_level);
+		$(".dingwei h1").html(tianqi.weather.current_temperature+"°");
+		$(".dingwei h3").html(tianqi.weather.current_condition);
+		$(".wind").html(tianqi.weather.wind_direction);
+		$(".shidu").html(tianqi.weather.wind_level+"级");
+		
+		$(".td .td-top").html(tianqi.weather.dat_high_temperature);
+		$(".td .td-low").html(tianqi.weather.dat_low_temperature);
+		$(".td li:nth-child(3)").html(tianqi.weather.dat_condition);
+		let str=`<img src="img/${tianqi.weather.dat_weather_icon_id}.png">`;
+		$(".td li:last-child").html(str);
+		
+		$(".tm .td-top").html(tianqi.weather.tomorrow_high_temperature);
+		$(".tm .td-low").html(tianqi.weather.tomorrow_low_temperature);
+		$(".tm li:nth-child(3)").html(tianqi.weather.tomorrow_condition);
+		let str1=`<img src="img/${tianqi.weather.tomorrow_weather_icon_id}.png">`;
+		$(".tm li:last-child").html(str1);
+		
+		let hweather=tianqi.weather.hourly_forecast;
+			hweather.forEach(function(v){
+				let str2=`<li>
+							<p>${v.hour}:00</p>
+							<img src="img/${v.weather_icon_id}.png"/>
+							<p>${v.temperature}°</p>
+						  </li>`;
+				
+				$(".time-1").append(str2);
+		})
+			
+		let future=tianqi.weather.forecast_list;
+			future.forEach(function(v){
+				let str3=`<li>
+							<span>${v.date}</span>
+							<h4>${v.condition}</h4>
+							<img src="img/${v.weather_icon_id}.png" alt="" />
+							<div class="qushi-img"></div>
+							<img src="img/${v.weather_icon_id}.png"/>
+							<p>${v.condition}</p>
+							<p>${v.wind_direction}</p>
+							<p>${v.wind_level}级</p>
+						 </li>`;
+						 
+				$(".qushi-top").append(str3);
+			})
+	}
+	
+	let city;
+	$.ajax({
+		type:"get",
+		url:"https://www.toutiao.com/stream/widget/local_weather/city/",
+		dataType:"jsonp",
+		success:function(obj){
+			city=obj.data;
+			updataCity(city);
+			console.log(city)
+		}
+	});
+	function updataCity(city){
+		for(let i in city){
+			let str=`<li>${i}</li>`;
+			$(".location-3 ul").append(str);
+			for(let j in city[i]){
+				let str1=`<li>${j}</li>`;
+				$(".location-4 ul").append(str1);
+			}
+		}
+	}
+	
+	window.onload=function(){
+		$(".location li").click(function(){
+			$(".location").animate({"right":"7.5rem"});
+			$(".main").css({"display":'block'});
+			$(".location").css({"display":"none"});
+			let con=$(this).html();
+//			console.log(con);
+			ajaxs(con);
+		})
+		function ajaxs(tianqi1){
+			let url1=`https://www.toutiao.com/stream/widget/local_weather/data/?city=${tianqi1}`;
+			$.ajax({
+				type:"get",
+				url:url1,
+				dataType:"jsonp",
+				success:function(obj){
+					let tianqi2=obj.data;
+					$(".time-1").empty();
+					$(".qushi-top").empty();
+					updata(tianqi2);
+					
+				}
+			});
+		}
+		
+		$("input").focus(function(){
+			$(".input a").html("搜索");
+		})
+		$(".input a").click(function(){
+			let text=$("input").val();
+			for(let i in city){
+				if(text==i){
+					ajaxs(text);
+					return;
+				}
+				for(let j in city[i]){
+					if(text==j){
+						ajaxs(text);
+						return;
+					}
+				}
+			}
+			if(text!=""){
+				alert("该城市不存在");
+			}
+			
+		})
+		
+	}
+</script>
